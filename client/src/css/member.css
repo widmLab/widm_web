@@ -1,0 +1,6 @@
+.member_image{
+    transition-duration: 0.5s;
+}
+.member_image:hover{
+    transform: scale(1.1);
+}

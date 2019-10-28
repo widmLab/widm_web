@@ -1,0 +1,11 @@
+var express = require('express');
+var router = express.Router();
+var {postActivitiesType} = require('../controllers/ActivitiesType/postActivitiesType');
+var {deleteActivitiesType} = require('../controllers/ActivitiesType/deleteActivitiesType');
+var {getActivitiesType} = require('../controllers/ActivitiesType/getActivitiesType');
+var {putActivitiesType} = require('../controllers/ActivitiesType/putActivitiesType');
+router.post('/', postActivitiesType);
+router.delete('/', deleteActivitiesType);
+router.get('/', getActivitiesType);
+router.put('/', putActivitiesType);
+module.exports = router;

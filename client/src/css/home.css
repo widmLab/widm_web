@@ -1,0 +1,28 @@
+.picture{
+   opacity:1;
+   filter: grayscale(0.7);
+   height: auto;
+}
+.Floater{
+   top : 20%;
+   right : 65px;
+   position: absolute;
+   font-weight: 800;
+   line-height: 71.5px;
+   z-index: 500;
+   font-size: 55px;
+   font-family: 'Open Sans',"微軟正黑體", "Microsoft JhengHei",'Helvetica Neue',Arial,sans-serif;
+   color: white;
+}
+@media(max-width:1550px){
+   .Floater{
+      font-size: 40px;
+      right:5px;
+   }
+}
+@media(max-width:1024px){
+   .Floater{
+      font-size: 25px;
+      right:5px;
+   }
+}
